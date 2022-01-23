@@ -1,4 +1,4 @@
-# remote-kakao-example
+# example
 
 ## Usage
 

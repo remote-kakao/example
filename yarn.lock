@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@remote-kakao/core@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@remote-kakao/core/-/core-1.0.0-alpha.0.tgz#b20feccc1fb3995c3d35fd25d35c5719c101c207"
+  integrity sha512-cDkr9cjHApEuAqD3eA937bc0e4su1ffJQAnXvkc37HnPlqduiutWnFWj8fDfmDlHOuzk5rJuWwI9dKvi1X4h4Q==
+  dependencies:
+    eventemitter3 "^4.0.7"
+    node-kakaolink "^1.1.7"
+
 axios-cookiejar-support@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/axios-cookiejar-support/-/axios-cookiejar-support-1.0.1.tgz#7b32af7d932508546c68b1fc5ba8f562884162e1"
@@ -171,14 +179,6 @@ punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-remote-kakao@^2.0.0-alpha4:
-  version "2.0.0-alpha4"
-  resolved "https://registry.yarnpkg.com/remote-kakao/-/remote-kakao-2.0.0-alpha4.tgz#1633e9f5fdbf8afd59c424c1ba98354ee6b9c3ed"
-  integrity sha512-YpftYKbpAVj5MEBqPspmdei9rKlj+AyDltsndxqpxqQjbGlC6w04zHFtJPojAvKpLULRXyU+mfjp4zzoUtmKoA==
-  dependencies:
-    eventemitter3 "^4.0.7"
-    node-kakaolink "^1.1.7"
 
 tough-cookie@^4.0.0:
   version "4.0.0"

@@ -1,4 +1,4 @@
-import { Server } from 'remote-kakao';
+import { Server } from '@remote-kakao/core';
 import config from '../config.json';
 
 const server = new Server({ useKakaoLink: true });

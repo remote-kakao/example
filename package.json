@@ -1,16 +1,16 @@
 {
-  "name": "remote-kakao-example",
+  "name": "example",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
-  "repository": "https://github.com/remote-kakao/remote-kakao-example.git",
+  "repository": "https://github.com/remote-kakao/example.git",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon --exec ts-node src/index.ts"
   },
   "author": "thoratica <me@tica.fun>",
   "dependencies": {
-    "remote-kakao": "^2.0.0-alpha4"
+    "@remote-kakao/core": "^1.0.0-alpha.0"
   },
   "devDependencies": {
     "typescript": "^4.5.4"
